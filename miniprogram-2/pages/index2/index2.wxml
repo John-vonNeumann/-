@@ -1,0 +1,24 @@
+<!--pages/index2/index2.wxml-->
+  <view class="page-section">
+    <view class="weui-cells__title">请输入宿舍编号</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" type="number" placeholder="如7栋513：7513" />
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="weui-cells__title">请设置密码</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" password type="text" placeholder="这是一个密码输入框" />
+      </view>
+    </view>
+  </view>
+  <block class="submit">
+      <view class="submitbutton">
+        <button size="mini">注册</button>
+      </view>
+  </block>
+  
+ 

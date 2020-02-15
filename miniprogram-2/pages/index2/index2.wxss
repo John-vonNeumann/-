@@ -1,0 +1,13 @@
+/* pages/index2/index2.wxss */
+@import "../lib/weui.wxss";
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+.submit{
+  display: flex;
+}
+.submitbutton{
+  flex: 1;
+  text-align: center;
+}
